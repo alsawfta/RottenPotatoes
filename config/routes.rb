@@ -3,6 +3,7 @@ Rottenpotatoes::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   root 'movies#index'
+#
   resources :movies
 
   get 'movies/:find_director/moviesWithSameDirector', to: 'movies#moviesWithSameDirector', as: 'moviesWithSameDirector'
