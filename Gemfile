@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'protected_attributes'
 ruby '2.2.3'
 #gem 'rails', '3.2.18'
 gem 'rails', '4.0.0'
@@ -21,9 +21,10 @@ group :development, :test do
   gem 'test-unit'
   gem 'activeresource'
   gem 'protected_attributes'
-
 end
+
 group :production do
+  gem 'protected_attributes'
   gem 'pg'
 end
 
@@ -46,3 +47,5 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'haml'
+
+gem 'protected_attributes'
