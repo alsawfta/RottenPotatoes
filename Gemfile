@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 gem 'protected_attributes'
-ruby '2.2.3'
+ruby '2.1.2'
 #gem 'rails', '3.2.18'
 gem 'rails', '4.0.0'
 gem 'rails_12factor'
-# Bundle edge Rails instead:
+# Bundle edge Rails instead:buns
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
